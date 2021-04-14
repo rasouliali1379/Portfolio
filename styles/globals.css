@@ -1,7 +1,22 @@
+@font-face {
+  font-family: "roboto-thin";
+  src: url("../public/fonts/roboto_thin_font/Roboto-Thin.eot");
+  src: url("../public/fonts/roboto_thin_font/Roboto-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/roboto_thin_font/Roboto-Thin.woff2") format("woff2"),
+    url("../public/fonts/roboto_thin_font/Roboto-Thin.woff") format("woff"),
+    url("../public/fonts/roboto_thin_font/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+  color: white;
+  background-color: #323230;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }

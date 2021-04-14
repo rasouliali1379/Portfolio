@@ -1,0 +1,94 @@
+
+.section1 {
+    font-family: 'roboto-thin';
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    height: 89vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    font-family: 'roboto-thin';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.name {
+    font-size: 55px;
+    letter-spacing: 6px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+}
+
+.knowMe {
+    font-family: 'roboto-thin';
+    font-size: 16px;
+}
+
+.knowMeContainer {
+    margin: 8px;
+}
+
+.currentJob {
+    font-size: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.companyName {
+    text-align: center;
+    margin: 16px 8px;
+}
+
+.skills {
+    text-align: center;
+    font-size: 24px;
+}
+
+.mySkillsBtnContainer {
+    margin-top: 16px;
+}
+
+.mySkillsBtn {
+    text-align: center;
+    margin: 16px 8px;
+}
+
+.mySkillsBtnIcon {
+    margin: 0px 0px 0px 16px;
+}
+
+.section3 {
+    font-family: 'roboto-thin';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
